@@ -137,7 +137,7 @@
         <section class="ui__swap svelte-wtt52l"><div class="ui__toggle"><button class="ui__toggle__button ui__toggle__button--buy svelte-wtt52l">Stake</button>
                 <button class="ui__toggle__button false svelte-wtt52l">Unstake</button></div>
             <div class="ui__bubble"><div class="ui__field"><button class="ui__currency"><img class="ui__currency__logo" src="../img/pyramidCompact.jpg" alt="">
-                        <span class="ui__currency__text"><span>GIZA</span></span></button>
+                        <span class="ui__currency__text"><span>L</span></span></button>
                     <div class="ui__field__right"><input class="ui__input" type="number" placeholder="0.00" value="1">
                         </div></div>
                 <hr class="ui__divider">
