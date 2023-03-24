@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+        -->
+        <!--link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">-->
+        <link href="../aos.css" rel="stylesheet">
+        <meta name="referrer" content="none">
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="../img/tokens/giza.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="../img/tokens/giza.png">
+        <script type="text/javascript" src="../aos.js"></script>
+        <script type="text/javascript" src="../web3.js"></script>
+        <!--<script type="text/javascript" src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>-->
+        <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>-->
+        <script src="../npm/vega%405"></script>
+        <script defer="" data-domain="gizaswap.com" src="../js/plausible.js"></script>
+        <meta http-equiv="content-security-policy" content=""><title>Token Factory | GizaSwap</title>
+	<link rel="stylesheet" href="../_app/immutable/assets/__layout-9926e11c.css">
+	<link rel="stylesheet" href="../_app/immutable/assets/ConnectWalletTrigger-d28709b5.css">
+	<link rel="stylesheet" href="../_app/immutable/assets/index-b9069fbf.css">
+	<link rel="stylesheet" href="../_app/immutable/assets/Spinner-8e4292cd.css">
+	<link rel="modulepreload" href="../_app/immutable/start-21fec057.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/index-b9522995.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/index-f6a2642a.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/singletons-eca981c1.js">
+	<link rel="modulepreload" href="../_app/immutable/pages/__layout.svelte-4cd683dd.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/web3-store-c691b065.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/ConnectWalletTrigger-21c5e1a9.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/ConnectWalletTrigger.svelte_svelte_type_style_lang-60896ddd.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/_commonjsHelpers-cea7ac1a.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/navigation-75a744b1.js">
+	<link rel="modulepreload" href="../_app/immutable/pages/factory/index.svelte-f58eba0d.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/mgiza-354f3226.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/factory-3a54a121.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/Spinner-ca0f996b.js">
+    </head>
+    <body>
+        
+
+
+
+
+<nav class="navbar svelte-t759wh"><div class="navbar__left svelte-t759wh"><a class="home svelte-t759wh" href="../index.htm" sveltekit:prefetch=""><img class="home__logo svelte-t759wh" src="../img/tokens/giza.png" alt="GIZA">
+            <span class="home__text svelte-t759wh">GIZA</span></a>
+        <div class="links svelte-t759wh"><a class="link svelte-t759wh" href="../swap/swap" sveltekit:prefetch="">Swap</a>
+            <a class="link svelte-t759wh" href="../stake/stake" sveltekit:prefetch="">Stake</a>
+            <a class="link link--1w svelte-t759wh" href="../markets/markets">Markets</a>
+            <a class="link link--2w svelte-t759wh" href="../launchpad/launchpad">Launchpad</a>
+            <a class="dropdown svelte-t759wh"><span class="link--gradient svelte-t759wh">Create
+                    <img class="link__arrow svelte-t759wh" src="../img/icon/arrowDown.svg" alt="" height="12" width="12"></span>
+                <div class="dropdown__content svelte-t759wh" style="display: none;"><a class="dropdown__link svelte-t759wh" href="factory"><div class="dropdown__link__image"><img src="../img/icon/TokenFactory.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Token Factory</span>
+                            <span class="dropdown__link__small svelte-t759wh">Create a transfer tax sMM token that trades on GizaSwap.</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" href="../manager/manager"><div class="dropdown__link__image"><img src="../img/icon/ManageTokens.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Manage Tokens</span>
+                            <span class="dropdown__link__small svelte-t759wh">Manage all your sMM tokens in one place.</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/ZeroTax2.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Zero-Tax Token Factory</span>
+                            <span class="dropdown__link__small svelte-t759wh">Create a zero-tax sMM token that trades on any exchange.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/Wrapper.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Token Wrapper</span>
+                            <span class="dropdown__link__small svelte-t759wh">Deepen an existing token&#39;s liquidity with a GizaSwap listing.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/Presale.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Presale Application</span>
+                            <span class="dropdown__link__small svelte-t759wh">Apply for a crowdfunded launch on GizaSwap&#39;s token launchpad.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a></div></a>
+            <a class="link link--w svelte-t759wh" href="https://docs.gizaswap.com" rel="external noopener" target="_blank">Docs
+                <img class="link__arrow svelte-t759wh" src="../img/icon/arrowOut.svg" alt="" height="18" width="18"></a></div></div>
+    <div class="navbar__right svelte-t759wh"><div class="navbar__right__mobile svelte-t759wh">
+
+
+<button class="ui__button ui__button--small svelte-kmd7yi">Connect
+</button></div>
+        <div class="navbar__right__desktop svelte-t759wh">
+
+
+<button class="ui__dropdown ui__dropdown--small svelte-17qs4r3"><img class="ui__dropdown__image svelte-17qs4r3" src="../img/tokens/eth.png" alt="">
+    Ethereum
+    <img class="ui__dropdown__arrow" src="../img/icon/arrowDown.svg" alt="">
+</button>
+            
+
+
+<button class="ui__button ui__button--small svelte-kmd7yi">Connect
+</button></div></div>
+</nav>
+<div style="padding-top:60px;">
+
+<div class="wrapper svelte-hm4jod"><h1 class="svelte-hm4jod">Token Factory</h1>
+    <p>This is a rudimentary interface for Keops Protocol&#39;s token factory.</p>
+    <p>If you have any questions or are having any issues, don&#39;t hesitate to join our support group on Telegram!</p>
+    <p>Token Factory Telegram Group: <a class="a" href="" target="_blank"></a></p>
+    <p>Improvements to this interface are on the way.</p>
+    <br>
+    <br>
+    
+    <form class="form svelte-hm4jod"><h2 class="g form__divider svelte-hm4jod">Token Metadata</h2>
+        <div class="form__row"><div class="form__col"><div class="form__field"><label class="form__label">Name <span class="form__required">*</span></label>
+                    <input class="form__input" type="text" placeholder="ABC Token" required="" value=""></div></div>
+            <div class="form__col"><div class="form__field"><label class="form__label">Symbol <span class="form__required">*</span></label>
+                    <input class="form__input" type="text" placeholder="ABC" required="" value=""></div></div></div>
+        <div class="form__field"><label class="form__label">Logo URL (PNG)</label>
+            <input class="form__input" type="text" placeholder="https://example.com/abc-logo.png" value=""></div>
+        <hr class="svelte-hm4jod">
+        <h2 class="g form__divider svelte-hm4jod">Supply</h2>
+        <div class="form__row"><div class="form__col"><div class="form__field"><label class="form__label">Supply <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="1000000000" required="" value="1000000000"></div></div>
+            <div class="form__col"><div class="form__field"><label class="form__label">Decimals <span class="form__required">*</span></label>
+                    <input class="form__input form__input--disabled" type="text" value="9" disabled=""></div></div></div>
+        <hr class="svelte-hm4jod">
+        <h2 class="g form__divider svelte-hm4jod">Liquidity</h2>
+        <div class="form__field"><label class="form__label form__label--checkbox"><input type="checkbox">
+                <span>Zero-Liquidity Token</span></label></div>
+        <div class="form__row"><div class="form__col"><div class="form__field"><label class="form__label">Pair Currency <span class="form__required">*</span></label>
+                    <details id="dropdown" class="ui__dropdown svelte-hm4jod"><summary class="ui__currency summary svelte-hm4jod"><img class="ui__currency__logo summary" src="../img/tokens/weth.png" alt="">
+                            <span class="ui__currency__text summary"><span class="summary">WETH</span> <img class="summary" src="../img/icon/arrowDown.svg" alt="" width="12" height="12"></span></summary>
+                        <div class="ui__dropdown__content svelte-hm4jod"><button class="ui__currency ui__currency--dropdown ui__currency--dropdown--bottom svelte-hm4jod"><img class="ui__currency__logo" src="../img/tokens/usdt.png" alt="">
+                                    <span class="ui__currency__text"><span>USDT</span></span></button></div></details></div>
+                <div class="form__field"><label class="form__label">Starting Price (WETH Per Token) <span class="form__required">*</span></label>
+                    <input class="form__input" type="text" placeholder="0.0001" required=""></div></div>
+            <div class="form__col"><div class="form__field"><label class="form__label">Initial WETH Amount <span class="form__required">*</span></label>
+                        <input class="form__input" type="text" placeholder="1000000000" required="" value="100"></div>
+                <div class="form__field"><label class="form__label">Initial Token Amount <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="1000000000" required="" value="500000000"></div></div></div>
+        <hr class="svelte-hm4jod">
+        <h2 class="g form__divider svelte-hm4jod">Transfer Taxes</h2>
+        <p><strong><span class="bold">IMPORTANT: </span> Transfer Taxes are denominated in basis points.<br>Therefore, &quot;100&quot; = 1.00% and &quot;1&quot; = 0.01%, etc.</strong></p>
+        <div class="form__row"><div class="form__col"><div class="form__field"><label class="form__label">Buy Tax (LP Boost) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                <div class="form__field"><label class="form__label">Buy Tax (Development) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Buy Tax (Marketing) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Buy Tax (Treasury) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Buy Tax (Burn) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                <div class="form__field"><label class="form__label">Buy Tax (Other) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                </div>
+            <div class="form__col"><div class="form__field"><label class="form__label">Sell Tax (LP Boost) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                <div class="form__field"><label class="form__label">Sell Tax (Development) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Sell Tax (Marketing) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Sell Tax (Treasury) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                
+                <div class="form__field"><label class="form__label">Sell Tax (Burn) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                <div class="form__field"><label class="form__label">Sell Tax (Other) <span class="form__required">*</span></label>
+                    <input class="form__input" type="number" placeholder="0" required="" value="0"></div>
+                </div></div>
+        <hr class="svelte-hm4jod">
+        <h2 class="g form__divider svelte-hm4jod">Market Making Strategy</h2>
+        <p class="form__text svelte-hm4jod">Currently, only the default strategy is available. More will be available soon.</p>
+        <hr class="svelte-hm4jod">
+        <h2 class="g form__divider svelte-hm4jod">Advanced Configuration</h2>
+        <p class="form__text form__text--button false svelte-hm4jod" role="button">Show advanced configuration <img src="../img/icon/arrowDown.svg" alt="" height="16" width="16" class="svelte-hm4jod"></p>
+        
+
+        
+
+
+<button class="ui__button ui__button--large svelte-kmd7yi">Connect
+</button></form>
+</div></div>
+<footer class="footer svelte-1bkh8wg"><div class="footer__left"><p class="svelte-1bkh8wg">Nothing on this website is financial advice. DeFi is a nascent and experimental industry. Interacting with DeFi products is risky.</p>
+        <p class="svelte-1bkh8wg">© 2022 GizaSwap.</p></div>
+    <div class="footer__right"><div class="footer__column"><h2 class="svelte-1bkh8wg">Socials</h2>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://medium.com/@TheGreatPyramid" target="_blank">Medium</a></p>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://twitter.com/gizaswap" target="_blank">Twitter</a></p>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://t.me/gizaswap" target="_blank">Telegram</a></p></div></div>
+</footer>
+
+
+		<script type="module" data-sveltekit-hydrate="1ui66mv">
+		import { set_public_env, start } from "/_app/immutable/start-21fec057.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1ui66mv"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "always",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 2],
+				params: {},
+				routeId: "factory"
+			}
+		});
+	</script>
+        <!--
+        <script type="text/javascript" src="/components.js"></script>
+        -->
+    </body>
+</html>

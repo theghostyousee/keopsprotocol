@@ -1,0 +1,1 @@
+import{S as i,i as r,s as c,l as o,m as h,n as p,h as n,p as _,b as m,E as t}from"./index-b9522995.js";function d(a){let e;return{c(){e=o("div"),this.h()},l(s){e=h(s,"DIV",{class:!0}),p(e).forEach(n),this.h()},h(){_(e,"class","spinner svelte-lgeybc")},m(s,l){m(s,e,l)},p:t,i:t,o:t,d(s){s&&n(e)}}}class f extends i{constructor(e){super(),r(this,e,null,d,c,{})}}export{f as S};

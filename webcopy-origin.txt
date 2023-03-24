@@ -1,0 +1,284 @@
+Uri: https://cdn.jsdelivr.net/npm/vega@5
+File Name: C:\Downloaded Web Sites\gizaswap.com\npm\vega@5
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/
+File Name: C:\Downloaded Web Sites\gizaswap.com\index.htm
+Content Type: text/html
+
+Uri: https://gizaswap.com/aos.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\aos.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/aos.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\aos.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/factory/
+File Name: C:\Downloaded Web Sites\gizaswap.com\factory\factory
+Content Type: text/html
+
+Uri: https://gizaswap.com/font/Metropolis-Bold.otf
+File Name: C:\Downloaded Web Sites\gizaswap.com\font\Metropolis-Bold.otf
+Content Type: font/otf
+
+Uri: https://gizaswap.com/font/Metropolis-Regular.otf
+File Name: C:\Downloaded Web Sites\gizaswap.com\font\Metropolis-Regular.otf
+Content Type: font/otf
+
+Uri: https://gizaswap.com/img/icon/arrowDown.svg
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\arrowDown.svg
+Content Type: image/svg+xml
+
+Uri: https://gizaswap.com/img/icon/arrowOut.svg
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\arrowOut.svg
+Content Type: image/svg+xml
+
+Uri: https://gizaswap.com/img/icon/ManageTokens.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\ManageTokens.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/icon/Presale.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\Presale.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/icon/TokenFactory.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\TokenFactory.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/icon/Wrapper.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\Wrapper.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/icon/ZeroTax2.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\icon\ZeroTax2.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/landing/design1.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\landing\design1.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/landing/design2.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\landing\design2.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/landing/design3.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\landing\design3.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/landing/pyramid.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\landing\pyramid.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/launchpad/safx-preview.svg
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\launchpad\safx-preview.svg
+Content Type: image/svg+xml
+
+Uri: https://gizaswap.com/img/launchpad/safx.svg
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\launchpad\safx.svg
+Content Type: image/svg+xml
+
+Uri: https://gizaswap.com/img/pyramidCompact.jpg
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\pyramidCompact.jpg
+Content Type: image/jpeg
+
+Uri: https://gizaswap.com/img/tokens/eth.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\tokens\eth.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/tokens/giza.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\tokens\giza.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/tokens/usdt.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\tokens\usdt.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/img/tokens/weth.png
+File Name: C:\Downloaded Web Sites\gizaswap.com\img\tokens\weth.png
+Content Type: image/png
+
+Uri: https://gizaswap.com/launchpad/
+File Name: C:\Downloaded Web Sites\gizaswap.com\launchpad\launchpad
+Content Type: text/html
+
+Uri: https://gizaswap.com/launchpad/safx/
+File Name: C:\Downloaded Web Sites\gizaswap.com\launchpad\safx\safx
+Content Type: text/html
+
+Uri: https://gizaswap.com/manager/
+File Name: C:\Downloaded Web Sites\gizaswap.com\manager\manager
+Content Type: text/html
+
+Uri: https://gizaswap.com/markets/
+File Name: C:\Downloaded Web Sites\gizaswap.com\markets\markets
+Content Type: text/html
+
+Uri: https://gizaswap.com/stake/
+File Name: C:\Downloaded Web Sites\gizaswap.com\stake\stake
+Content Type: text/html
+
+Uri: https://gizaswap.com/swap/
+File Name: C:\Downloaded Web Sites\gizaswap.com\swap\swap
+Content Type: text/html
+
+Uri: https://gizaswap.com/video/pyramid.webm
+File Name: C:\Downloaded Web Sites\gizaswap.com\video\pyramid.webm
+Content Type: video/webm
+
+Uri: https://gizaswap.com/web3.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\web3.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/assets/ConnectWalletTrigger-d28709b5.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\ConnectWalletTrigger-d28709b5.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-4e6832a8.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-4e6832a8.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-50ae1498.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-50ae1498.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-6fca3256.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-6fca3256.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-acbb76e9.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-acbb76e9.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-b3b18603.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-b3b18603.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-b9069fbf.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-b9069fbf.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-d4c26b2f.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-d4c26b2f.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/index-daf34f00.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\index-daf34f00.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/Spinner-8e4292cd.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\Spinner-8e4292cd.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/assets/__layout-9926e11c.css
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\assets\__layout-9926e11c.css
+Content Type: text/css
+
+Uri: https://gizaswap.com/_app/immutable/chunks/ConnectWalletTrigger-21c5e1a9.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\ConnectWalletTrigger-21c5e1a9.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/ConnectWalletTrigger.svelte_svelte_type_style_lang-60896ddd.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\ConnectWalletTrigger.svelte_svelte_type_style_lang-60896ddd.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/factory-3a54a121.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\factory-3a54a121.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/gizaswap-24ec2f8a.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\gizaswap-24ec2f8a.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/icaruspresale-89f60f1e.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\icaruspresale-89f60f1e.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/index-b9522995.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\index-b9522995.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/index-f6a2642a.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\index-f6a2642a.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/mgiza-354f3226.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\mgiza-354f3226.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/mgizatracker-839f932c.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\mgizatracker-839f932c.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/navigation-75a744b1.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\navigation-75a744b1.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/Quoter-20f7c098.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\Quoter-20f7c098.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/singletons-eca981c1.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\singletons-eca981c1.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/Spinner-ca0f996b.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\Spinner-ca0f996b.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/sweetalert2.all-a16f242f.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\sweetalert2.all-a16f242f.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/web3-store-c691b065.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\web3-store-c691b065.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/chunks/_commonjsHelpers-cea7ac1a.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\chunks\_commonjsHelpers-cea7ac1a.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/factory/index.svelte-f58eba0d.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\factory\index.svelte-f58eba0d.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/index.svelte-16d454dc.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\index.svelte-16d454dc.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/launchpad/index.svelte-94d9f347.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\launchpad\index.svelte-94d9f347.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/launchpad/safx/index.svelte-eb569a77.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\launchpad\safx\index.svelte-eb569a77.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/manager/index.svelte-2a14a483.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\manager\index.svelte-2a14a483.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/markets/index.svelte-8841f18d.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\markets\index.svelte-8841f18d.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/stake/index.svelte-687c60b3.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\stake\index.svelte-687c60b3.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/swap/index.svelte-f94f0612.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\swap\index.svelte-f94f0612.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/pages/__layout.svelte-4cd683dd.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\pages\__layout.svelte-4cd683dd.js
+Content Type: application/javascript
+
+Uri: https://gizaswap.com/_app/immutable/start-21fec057.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\_app\immutable\start-21fec057.js
+Content Type: application/javascript
+
+Uri: https://plausible.io/js/plausible.js
+File Name: C:\Downloaded Web Sites\gizaswap.com\js\plausible.js
+Content Type: application/javascript
+

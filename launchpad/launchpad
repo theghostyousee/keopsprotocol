@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+        -->
+        <!--link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">-->
+        <link href="../aos.css" rel="stylesheet">
+        <meta name="referrer" content="none">
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="../img/tokens/giza.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="../img/tokens/giza.png">
+        <script type="text/javascript" src="../aos.js"></script>
+        <script type="text/javascript" src="../web3.js"></script>
+        <!--<script type="text/javascript" src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>-->
+        <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>-->
+        <script src="../npm/vega%405"></script>
+        <script defer="" data-domain="gizaswap.com" src="../js/plausible.js"></script>
+        <meta http-equiv="content-security-policy" content=""><title>Launchpad | GizaSwap</title>
+	<link rel="stylesheet" href="../_app/immutable/assets/__layout-9926e11c.css">
+	<link rel="stylesheet" href="../_app/immutable/assets/ConnectWalletTrigger-d28709b5.css">
+	<link rel="stylesheet" href="../_app/immutable/assets/index-50ae1498.css">
+	<link rel="modulepreload" href="../_app/immutable/start-21fec057.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/index-b9522995.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/index-f6a2642a.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/singletons-eca981c1.js">
+	<link rel="modulepreload" href="../_app/immutable/pages/__layout.svelte-4cd683dd.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/web3-store-c691b065.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/ConnectWalletTrigger-21c5e1a9.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/ConnectWalletTrigger.svelte_svelte_type_style_lang-60896ddd.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/_commonjsHelpers-cea7ac1a.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/navigation-75a744b1.js">
+	<link rel="modulepreload" href="../_app/immutable/pages/launchpad/index.svelte-94d9f347.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/icaruspresale-89f60f1e.js">
+    </head>
+    <body>
+        
+
+
+
+
+<nav class="navbar svelte-t759wh"><div class="navbar__left svelte-t759wh"><a class="home svelte-t759wh" href="../index.htm" sveltekit:prefetch=""><img class="home__logo svelte-t759wh" src="../img/tokens/giza.png" alt="GIZA">
+            <span class="home__text svelte-t759wh">GIZA</span></a>
+        <div class="links svelte-t759wh"><a class="link svelte-t759wh" href="../swap/swap" sveltekit:prefetch="">Swap</a>
+            <a class="link svelte-t759wh" href="../stake/stake" sveltekit:prefetch="">Stake</a>
+            <a class="link link--1w svelte-t759wh" href="../markets/markets">Markets</a>
+            <a class="link link--2w svelte-t759wh" href="launchpad">Launchpad</a>
+            <a class="dropdown svelte-t759wh"><span class="link--gradient svelte-t759wh">Create
+                    <img class="link__arrow svelte-t759wh" src="../img/icon/arrowDown.svg" alt="" height="12" width="12"></span>
+                <div class="dropdown__content svelte-t759wh" style="display: none;"><a class="dropdown__link svelte-t759wh" href="../factory/factory"><div class="dropdown__link__image"><img src="../img/icon/TokenFactory.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Token Factory</span>
+                            <span class="dropdown__link__small svelte-t759wh">Create a transfer tax sMM token that trades on GizaSwap.</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" href="../manager/manager"><div class="dropdown__link__image"><img src="../img/icon/ManageTokens.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Manage Tokens</span>
+                            <span class="dropdown__link__small svelte-t759wh">Manage all your sMM tokens in one place.</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/ZeroTax2.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Zero-Tax Token Factory</span>
+                            <span class="dropdown__link__small svelte-t759wh">Create a zero-tax sMM token that trades on any exchange.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/Wrapper.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Token Wrapper</span>
+                            <span class="dropdown__link__small svelte-t759wh">Deepen an existing token&#39;s liquidity with a GizaSwap listing.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a>
+                    <a class="dropdown__link svelte-t759wh" role="button"><div class="dropdown__link__image"><img src="../img/icon/Presale.png" alt="" class="svelte-t759wh"></div>
+                        <div class="dropdown__link__text svelte-t759wh"><span class="dropdown__link__title">Presale Application</span>
+                            <span class="dropdown__link__small svelte-t759wh">Apply for a crowdfunded launch on GizaSwap&#39;s token launchpad.</span>
+                            <span class="dropdown__link__warning svelte-t759wh">Coming Soon</span></div></a></div></a>
+            <a class="link link--w svelte-t759wh" href="https://docs.gizaswap.com" rel="external noopener" target="_blank">Docs
+                <img class="link__arrow svelte-t759wh" src="../img/icon/arrowOut.svg" alt="" height="18" width="18"></a></div></div>
+    <div class="navbar__right svelte-t759wh"><div class="navbar__right__mobile svelte-t759wh">
+
+
+<button class="ui__button ui__button--small svelte-kmd7yi">Connect
+</button></div>
+        <div class="navbar__right__desktop svelte-t759wh">
+
+
+<button class="ui__dropdown ui__dropdown--small svelte-17qs4r3"><img class="ui__dropdown__image svelte-17qs4r3" src="../img/tokens/eth.png" alt="">
+    Ethereum
+    <img class="ui__dropdown__arrow" src="../img/icon/arrowDown.svg" alt="">
+</button>
+            
+
+
+<button class="ui__button ui__button--small svelte-kmd7yi">Connect
+</button></div></div>
+</nav>
+<div style="padding-top:60px;">
+
+<div class="wrapper svelte-1re4v1d"><h1 class="svelte-1re4v1d">Launchpad</h1>
+    <div class="presales svelte-1re4v1d"><h2 class="g svelte-1re4v1d">Ongoing Presales</h2>
+        <div class="presales__grid svelte-1re4v1d"><a class="presale svelte-1re4v1d" href="safx/safx"><span class="presale__title svelte-1re4v1d">SafX</span>
+                <span class="presale__raised">0 / 20 ETH</span>
+                <span class="presale__duration">0d 0h 0m 0s </span></a></div></div>
+</div></div>
+<footer class="footer svelte-1bkh8wg"><div class="footer__left"><p class="svelte-1bkh8wg">Nothing on this website is financial advice. DeFi is a nascent and experimental industry. Interacting with DeFi products is risky.</p>
+        <p class="svelte-1bkh8wg">© 2022 GizaSwap.</p></div>
+    <div class="footer__right"><div class="footer__column"><h2 class="svelte-1bkh8wg">Socials</h2>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://medium.com/@TheGreatPyramid" target="_blank">Medium</a></p>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://twitter.com/gizaswap" target="_blank">Twitter</a></p>
+            <p class="svelte-1bkh8wg"><a class="social__link svelte-1bkh8wg" href="https://t.me/gizaswap" target="_blank">Telegram</a></p></div></div>
+</footer>
+
+
+		<script type="module" data-sveltekit-hydrate="zn23bj">
+		import { set_public_env, start } from "/_app/immutable/start-21fec057.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="zn23bj"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "always",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 4],
+				params: {},
+				routeId: "launchpad"
+			}
+		});
+	</script>
+        <!--
+        <script type="text/javascript" src="/components.js"></script>
+        -->
+    </body>
+</html>
